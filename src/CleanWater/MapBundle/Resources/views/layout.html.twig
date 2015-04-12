@@ -1,0 +1,20 @@
+{# Importation du layout general du site #}
+{% extends "::layout.html.twig" %}
+{% block title %} {{ parent() }} {% endblock %}
+
+{% block body %}
+
+{# On definit le nouvau bloc body pour les pages de ce bundle  #}
+
+
+<div class="row" >
+    {% block  CleanWater_body %}
+
+    {% endblock %}{# Fin du bloc CleanWater_body#}
+</div>
+
+
+
+
+
+{% endblock %} {# Fin du bloc body #}   

@@ -1,0 +1,4 @@
+clean_water_map:
+    resource: "@CleanWaterMapBundle/Resources/config/routing.yml"
+    prefix:   /
+

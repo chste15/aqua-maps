@@ -1,0 +1,8 @@
+clean_water_map_homepage:
+    pattern:  /
+    defaults: { _controller: CleanWaterMapBundle:Map:index }
+    
+optimum_search_home_apropos:
+    pattern:  /apropos
+    defaults: { _controller: CleanWaterMapBundle:Map:apropos }
+

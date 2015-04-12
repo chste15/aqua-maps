@@ -1,0 +1,19 @@
+{% extends "CleanWaterMapBundle::layout.html.twig" %}
+{% block title %}{{ parent() }}{% endblock %}
+
+{% block  CleanWater_stylesheets %}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+ {% endblock %}
+
+{% block CleanWater_body %}
+
+    <div class="row " >
+            </div>
+
+{% block CleanWaterjavascripts %}
+    <!-- Include Javascript -->
+    <script type="text/javascript" src="{{ asset('http://maps.google.com/maps/api/js?sensor=false')}}"></script>
+{% endblock %}
+
+{% endblock %}

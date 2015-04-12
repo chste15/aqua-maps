@@ -1,0 +1,13 @@
+
+{% for commentaire in commentaires %}
+<li>
+    <i>Le {{ commentaire.date|date('d/m/Y') }}, par {{ commentaire.auteur}}.</i>
+    <div class="well">
+{{ commentaire.contenu }}
+        </div>
+    </li>
+{% else %}
+    <li>Pas (encore !) de commentaire</li>
+{% endfor %}
+
+        
